@@ -6,55 +6,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Meu Portifolio</title>
     <Style>
-        *{margin: 0px;padding: 0px;}
+        *{font-family: Arial, Helvetica, sans-serif;text-transform: uppercase;}
         :root{
             --cor1: #7181FB;
             --cor2: #263EFA;
             --cor3: #1E32C7;
             --cor4: #373F7A;
         }
-        body{max-width: 1000px;min-height: 290px; display: block;margin: auto;}
-        header{text-align: center;background-color: #373F7A;color:white;padding: 15px 0px;}
+        body{max-width: 1000px;min-height: 290px; display: block;margin: auto;background-color: var(--cor1);}
+        header{text-align: center;background-color: var(--cor4);color:white;padding: 15px 0px;font-size: 1.5em;}
+        header>h1{font-size: 1.8em;}
+        header>h1 p nav{background-color: var(--cor4);}
+        nav{font-size: 1em;}
         a{border-color: white;border: 1px; border-radius: 5px; border-style: solid;color: white;text-decoration: none;padding: 0px 15px; display: inline-block;}
         a:hover{background-color:var(--cor1);}
-        main{text-align: justify;}
-        #sobre{background-color: var(--cor1); padding: 10px 20px; text-indent: 20px;text-transform:uppercase ;}
+        main{text-align: justify;padding: 0px;margin: 0px;}
+        #sobre{background-color: var(--cor1); padding: 0px; text-indent: 20px;text-transform:uppercase;}
         h1{text-align: center;padding: 10px 0px;}
+        #text1{display: flex;}
+        #foto{max-width: 50%;}
+        .divs{padding: 10px;}
+        li{padding: 10px 0px;}
+        #faz>section>h1{background-color: var(--cor3);margin: 0px;padding: 20px 0px;font-size: 1.5em;}
     </Style>
 </head>
 <body>
     <header>
-        <h1>Rodrigo Ferreira de Paiva</h1>
-        <p>Analise e Desenvolvimento de Sistemas</p>
-        <nav>
-            <a href="#">Contatos</a>
-            <a href="#">Projetos</a>
-            <a href="#">Curriculo</a>
-        </nav>
+        <section id="topo">
+            <h1>Rodrigo Ferreira de Paiva</h1>
+            <p>Analise e Desenvolvimento de Sistemas</p>
+            <nav>
+                <a href="#">Contatos</a>
+                <a href="#">Projetos</a>
+                <a href="#">Curriculum</a>
+            </nav>
+        </section>
     </header>
     <main>
-        <section id="sobre">
-            <h1>Um pouco sobre mim</h1>
-    
-                <li>Sou estudante de <strong>Analise e Desenvolvimento de Sistemas</strong> na Estacio de Sá.</li>
-                <li>Com conhecimento em HTML, CSS e JavaScript</li>
-                <li>Moro em João Pessoa-PB, mas com disponibilidade de mudar de cidade.</li>
-                <li>Busco uma oportunidade de entrar para o mercado de trabalho como desenvolvedor web e aumentar meus conhecimentos em outras linguagens</li>
-          
-        </section>
-        <section id="pro">
-            <h1>Projetos</h1>
-            <section class="projetos" id="pro1">
-                <h2>Em Prossesso 1</h2>
-                <p>Site de um Salão de Beleza</p>
+        <section id="faz">
+            <section id="sobre">
+                <h1>Um pouco sobre mim</h1>
+                 <div id="text1">
+                     <img src="iconis.jpg" alt="" id="foto">
+                                 <div class="divs">
+                                     <li>Sou estudante de <strong>Analise e Desenvolvimento de Sistemas</strong> na Estacio de Sá.</li>
+                                     <li>Com conhecimento em HTML, CSS e JavaScript</li>
+                                     <li>Moro em João Pessoa-PB, mas com disponibilidade de mudar de cidade.</li>
+                                     <li>Busco uma oportunidade de entrar para o mercado de trabalho como desenvolvedor web e aumentar meus conhecimentos em outras linguagens</li>
+                                 </div>
+                 </div>
             </section>
-            <section class="projetos" id="pro2">
-                <h2>Em Prossesso 2</h2>
-                <p>Site de uma Lanchonete</p>
-            </section>
-            <section class="projetos" id="pro3">
-                <h3>Em Prossesso 3</h3>
-                <P>Agendamento de serviços Mecanicos</P>
+            <section id="pro">
+                <h1>Projetos</h1>
+                <section class="projetos" id="pro1">
+                    <h2>Em Prossesso 1</h2>
+                    <p>Site de um Salão de Beleza</p>
+                </section>
+                <section class="projetos" id="pro2">
+                    <h2>Em Prossesso 2</h2>
+                    <p>Site de uma Lanchonete</p>
+                </section>
+                <section class="projetos" id="pro3">
+                    <h3>Em Prossesso 3</h3>
+                    <P>Agendamento de serviços Mecanicos</P>
+                </section>
             </section>
         </section>
     </main>
