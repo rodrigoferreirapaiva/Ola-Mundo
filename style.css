@@ -1,26 +1,15 @@
-*{font-family: Arial, Helvetica, sans-serif;text-transform: uppercase;}
-:root{
-    --cor1: #7181FB;
-    --cor2: #263EFA;
-    --cor3: #1E32C7;
-    --cor4: #373F7A;
-}
-body{max-width: 1000px;min-height: 290px; display: block;margin: auto;background-color: var(--cor1);}
-header{text-align: center;background-color: var(--cor4);color:aliceblue;padding: 15px 0px;font-size: 1.5em;text-shadow: 3px 3px 6px black;}
-header>h1{font-size: 1.8em;}
-header>h1 p nav{background-color: var(--cor4);}
-nav{font-size: 1em;}
-a{border-color: white;border: 1px; border-radius: 5px; border-style: solid;color: white;text-decoration: none;padding: 0px 15px; display: inline-block;}
-a:hover{background-color:var(--cor1);}
-main{text-align: justify;padding: 0px;margin: 0px;}
-#sobre{background-color: var(--cor1); padding: 0px; text-indent: 20px;text-transform:uppercase;}
-h1{text-align: center;padding: 10px 0px;color: aliceblue;}
-#text1{display: flex;}
-#foto{max-width: 50%;}
-.divs{padding: 15px; text-align: left;}
-li{padding: 10px 0px;}
-#faz>section>h1{background-color: var(--cor3);margin: 0px;padding: 20px 0px;font-size: 1.5em;}
-#tx2{display: flex;}
-.projetos{background-color: var(--cor1);border: var(--cor4);border-style: inset;margin: 9px;width: 30%;text-align: center;}
-footer{background-color: var(--cor4);color: white;text-align: center;}
-footer>p{padding: 10px;margin: 0px;}
+*{font-family: Arial, Helvetica, sans-serif;}
+:root{--color1:#4BFA7A;
+--color2:#00E03C;
+--color3:#00AD2D;
+--color4:#00611A;
+--color5:#346140;}
+body{background-image: url(matrix.jpg);  display: block; margin: auto;}
+header{border: solid; color: white; border-radius: 20px;}
+#cabeca{max-width: 1200px; min-width: 300px; display: block;margin: auto;}
+main{max-width: 1000px; min-width: 300px; display: block;margin: auto;color: white;}
+#nome{text-align: center;padding: 20px;}
+.biografia>h2{border-top: solid;border-bottom: solid; padding:15px 10px;margin: 0px;color: white;text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.61);font-size: 2em;}
+.biografia>p{text-align: justify;text-indent: 40px; padding: 20px;font-size: 1.8em;}
+#links{font-size: 1.5em;}
+.projetos>h2{text-align: center;border-top: white solid;border-bottom: white solid; padding: 15px 0px;color: white;text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.61);}
