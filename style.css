@@ -13,3 +13,5 @@ main{max-width: 1000px; min-width: 300px; display: block;margin: auto;color: whi
 .biografia>p{text-align: justify;text-indent: 40px; padding: 20px;font-size: 1.8em;}
 #links{font-size: 1.5em;}
 .projetos>h2{text-align: center;border-top: white solid;border-bottom: white solid; padding: 15px 0px;color: white;text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.61);}
+footer{color: white; background-color: rgba(0, 0, 0, 0.603);}
+.foi{border-right: solid green;}
